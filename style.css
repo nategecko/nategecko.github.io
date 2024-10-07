@@ -1,0 +1,56 @@
+/* General setup */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Creepster', cursive; /* Spooky font */
+    background-color: #000000; /* Full black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.spooky-text {
+    font-size: 3.5rem;
+    color: #A020F0; /* Spooky purple */
+    text-shadow: 4px 4px 8px black; /* Shadow for creepiness */
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.spooky-btn {
+    background-color: #333333;
+    color: white;
+    border: 3px solid #A020F0; /* Spooky purple border */
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    font-family: 'Creepster', cursive;
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color 0.4s, transform 0.3s;
+}
+
+.spooky-btn:hover {
+    background-color: #A020F0; /* Change to spooky purple on hover */
+    transform: scale(1.1);
+}
+
+.no-btn {
+    position: relative;
+}
+
+#result {
+    font-size: 2.5rem;
+    color: #A020F0;
+    text-shadow: 3px 3px 5px black;
+    visibility: hidden;
+}
