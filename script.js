@@ -1,5 +1,5 @@
 function yesClicked() {
-    // Replace everything with the "WOAH! YOU SAID YES?! LET'S GOOOOO!" message
+    // Replace everything with the "LET'S GOOOO" message
     const container = document.querySelector('.container');
     container.innerHTML = '<h1 class="spooky-text">LET\'S GOOOOO</h1>';
 }
